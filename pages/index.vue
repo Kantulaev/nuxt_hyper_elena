@@ -1,4 +1,6 @@
 <template>
-  <TheHeader/>
-  <TheHero/>
+  <TheHeader />
+  <TheHero />
+  <TheStats />
+
 </template>
