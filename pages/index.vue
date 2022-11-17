@@ -2,5 +2,6 @@
   <TheHeader />
   <TheHero />
   <TheStats />
+  <TheTestimonials/>
 
 </template>
