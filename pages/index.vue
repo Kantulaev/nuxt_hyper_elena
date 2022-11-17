@@ -1,3 +1,4 @@
 <template>
   <TheHeader/>
+  <TheHeader/>
 </template>
