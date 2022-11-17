@@ -5,4 +5,5 @@
   <TheTestimonials/>
   <TheSection/>
   <TheFAQ />
+  <TheFooter />
 </template>

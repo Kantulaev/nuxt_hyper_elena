@@ -29,7 +29,7 @@
           </ul>
         </div>
         <NuxtLink to="/">
-          <a class="btn btn-ghost capitalize text-sm md:text-xl">Центр Развития Дробышевской</a>
+          <a class="btn btn-ghost text-sm md:text-xl">Центр развития Дробышевской</a>
         </NuxtLink>
       </div>
       <!-- navbar -->

@@ -3,13 +3,13 @@
     <div class="p-8 md:p-12 lg:px-16 lg:py-24">
       <div class="mx-auto max-w-xl text-center sm:text-left">
         <h2 class="text-3xl font-bold text-gray-900 dark:text-white md:text-5xl">
-          Ваш личный онлайн логопед для всей семьи
+          Онлайн-логопед для всей семьи
         </h2>
 
         <p class="text-md py-4  text-gray-500 dark:text-gray-300 md:text-xl my-4 md:block">
           Индвидульная подготовка и занятия.
           Решения проблем с произношением звуков.
-          Преодоление дисграфии и дислексии
+          Преодоление дисграфии и дислексии.
         </p>
 
         <NuxtLink to="/"

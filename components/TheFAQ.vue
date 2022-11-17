@@ -1,4 +1,8 @@
 <template>
+  <h2 class="text-3xl text-center mt-6 font-bold sm:text-4xl">
+    Часто задаваемые вопросы
+  </h2>
+
   <div class="divide-y mt-12 divide-gray-200 rounded-xl border border-gray-200 bg-gray-300 dark:bg-gray-900 ">
     <details class="group p-6" open>
       <summary class="flex cursor-pointer items-center justify-between">
