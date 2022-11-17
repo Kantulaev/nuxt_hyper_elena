@@ -53,9 +53,10 @@
         </ul>
       </div>
       <div class="navbar-end rounded-xl gap-4 ">
+        <NuxtLink to="/"
+          class="text-centr gap-4 scale-90 inline-flex items-center rounded-full border border-blue-600 bg-blue-600 px-8 py-3 text-white hover:bg-transparent focus:outline-none focus:ring active:text-blue-500">
+          <span class="text-xl font-bold pb-1"> Связаться </span>
 
-
-        <NuxtLink to="https://t.me/kantulaev" class="flex btn btn-primary gap-2 capitalize items-center">
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36" viewBox="0 0 48 48">
             <linearGradient id="BiF7D16UlC0RZ_VqXJHnXa_oWiuH0jFiU0R_gr1" x1="9.858" x2="38.142" y1="9.858" y2="38.142"
               gradientUnits="userSpaceOnUse">
@@ -74,10 +75,10 @@
               d="M11.553,23.717c6.99-3.075,16.035-6.824,17.284-7.343c3.275-1.358,4.28-1.098,3.779,1.91	c-0.36,2.162-1.398,9.319-2.226,13.774c-0.491,2.642-1.593,2.955-3.325,1.812c-0.833-0.55-5.038-3.331-5.951-3.984	c-0.833-0.595-1.982-1.311-0.541-2.721c0.513-0.502,3.874-3.712,6.493-6.21c0.343-0.328-0.088-0.867-0.484-0.604	c-3.53,2.341-8.424,5.59-9.047,6.013c-0.941,0.639-1.845,0.932-3.467,0.466c-1.226-0.352-2.423-0.772-2.889-0.932	C9.384,25.282,9.81,24.484,11.553,23.717z">
             </path>
           </svg>
-          Telegram
         </NuxtLink>
 
-        <NuxtLink to="https://t.me/kantulaev" class="flex btn btn-circle bg-green-700 hover:scale-110 transition-all ">
+        <NuxtLink to="https://t.me/kantulaev"
+          class="mr-4 flex btn btn-circle bg-green-700 hover:scale-110 transition-all ">
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36" viewBox="0 0 48 48">
             <path fill="#fff"
               d="M4.9,43.3l2.7-9.8C5.9,30.6,5,27.3,5,24C5,13.5,13.5,5,24,5c5.1,0,9.8,2,13.4,5.6	C41,14.2,43,18.9,43,24c0,10.5-8.5,19-19,19c0,0,0,0,0,0h0c-3.2,0-6.3-0.8-9.1-2.3L4.9,43.3z">
