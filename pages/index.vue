@@ -3,5 +3,5 @@
   <TheHero />
   <TheStats />
   <TheTestimonials/>
-
+  <TheFAQ />
 </template>
