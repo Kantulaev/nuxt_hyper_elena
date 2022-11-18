@@ -2,7 +2,7 @@
   <section class="bg-gray-900 text-white">
     <div class="mx-auto max-w-screen-xl px-4 py-16 md:px-6 lg:px-8">
       <div class="mx-auto max-w-lg text-center">
-        <h2 class=" text-3xl font-bold md:text-4xl">Найду подход <br /> на каждый возраст</h2>
+        <h2 class=" text-3xl font-bold md:text-4xl">Найду подход <br /> к человеку любого возраста</h2>
 
         <p class="mt-4 text-gray-300">
 
