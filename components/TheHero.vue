@@ -1,4 +1,4 @@
-<template >
+<template>
   <section class="overflow-hidden pt-6 bg-gray-50 dark:bg-gray-900 sm:grid sm:grid-cols-2">
     <div class="p-8 md:p-12 lg:px-16 lg:py-24">
       <div class="mx-auto max-w-xl text-center sm:text-left">
@@ -12,8 +12,8 @@
           Преодоление дисграфии и дислексии.
         </p>
 
-        <NuxtLink to="/"
-          class="text-centr -ml-4  gap-4 scale-90 inline-flex items-center rounded-full border border-blue-600 bg-blue-600 px-8 py-3 text-white hover:bg-transparent focus:outline-none focus:ring active:text-blue-500">
+        <NuxtLink to="https://t.me/Drobishevskaya"
+          class="-ml-4  gap-4 scale-90 inline-flex items-center rounded-full border border-blue-600 bg-blue-600 px-8 py-3 text-white hover:bg-transparent focus:outline-none focus:ring active:text-blue-500">
           <span class="text-xl font-bold pb-1"> Связаться </span>
 
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36" viewBox="0 0 48 48">

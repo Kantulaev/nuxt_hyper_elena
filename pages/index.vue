@@ -3,6 +3,7 @@
   <TheHero />
   <TheStats />
   <TheTestimonials/>
+  <TheVideoReview/>
   <TheSection/>
   <TheFAQ />
   <TheFooter />

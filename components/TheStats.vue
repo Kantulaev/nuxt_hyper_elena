@@ -15,7 +15,7 @@
         <dl class="grid grid-cols-1 gap-4 sm:grid-cols-3">
           <div class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center dark:border-gray-800">
             <dt class="order-last text-lg font-medium text-gray-500 dark:text-gray-400">
-              Количество часов
+              Уроков проведено
             </dt>
 
             <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">
@@ -25,18 +25,18 @@
 
           <div class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center dark:border-gray-800">
             <dt class="order-last text-lg font-medium text-gray-500 dark:text-gray-400">
-              Привет
+              Учеников обучено
             </dt>
 
-            <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">24</dd>
+            <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl"> >1700</dd>
           </div>
 
           <div class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center dark:border-gray-800">
             <dt class="order-last text-lg font-medium text-gray-500 dark:text-gray-400">
-              Total Addons
+              Техник и методов занятий
             </dt>
 
-            <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">86</dd>
+            <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl"> >60</dd>
           </div>
         </dl>
       </div>

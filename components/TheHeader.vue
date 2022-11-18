@@ -1,6 +1,6 @@
 <template>
-  <header>
-    <div class="navbar bg-base-200">
+  <header >
+    <div class="navbar fixed top-0 z-50 bg-base-200">
       <div class="navbar-start">
         <!-- bar -->
         <div class="dropdown">
@@ -11,8 +11,15 @@
             </svg>
           </label>
           <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-200 rounded-box w-52">
-            <li><a>Онлайн занятия</a></li>
-            <li><a>Отзывы</a></li>
+            <li>
+              <NuxtLink to="#TheFAQ">Часто задаваемые вопросы</NuxtLink>
+            </li>
+
+            <li>
+              <NuxtLink to="#TheTestimonials">Отзывы</NuxtLink>
+            </li>
+
+
             <li tabindex="0">
               <a class="justify-between">
                 Еще бар
@@ -29,14 +36,18 @@
           </ul>
         </div>
         <NuxtLink to="/">
-          <a class="btn btn-ghost text-sm md:text-xl">Центр развития Дробышевской</a>
+          <a class="btn btn-ghost normal-case text-sm md:text-xl">Центр развития Дробышевской</a>
         </NuxtLink>
       </div>
       <!-- navbar -->
       <div class="navbar-center hidden  lg:flex">
         <ul class="menu menu-horizontal p-0 rounded-xl">
-          <li><a>Онлайн занятия</a></li>
-          <li><a>Отзывы</a></li>
+          <li>
+            <NuxtLink to="#TheFAQ">Часто задаваемые вопросы</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="#TheTestimonials">Отзывы</NuxtLink>
+          </li>
           <li tabindex="0">
             <a>
               Еще
@@ -52,9 +63,9 @@
           </li>
         </ul>
       </div>
-      <div class="navbar-end rounded-xl gap-4 ">
-        <NuxtLink to="/"
-          class="text-centr gap-4 scale-90 inline-flex items-center rounded-full border border-blue-600 bg-blue-600 px-8 py-3 text-white hover:bg-transparent focus:outline-none focus:ring active:text-blue-500">
+      <div class="navbar-end rounded-xl sm:gap-4 ">
+        <NuxtLink to="https://t.me/Drobishevskaya"
+          class="gap-4 scale-90 sm:inline-flex items-center hidden  rounded-full border border-blue-600 bg-blue-600 px-8 py-3 text-white hover:bg-transparent focus:outline-none focus:ring active:text-blue-500">
           <span class="text-xl font-bold pb-1"> Связаться </span>
 
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36" viewBox="0 0 48 48">
@@ -77,7 +88,7 @@
           </svg>
         </NuxtLink>
 
-        <NuxtLink to="https://t.me/kantulaev"
+        <NuxtLink to="https://wa.link/z35ix4"
           class="mr-4 flex btn btn-circle bg-green-700 hover:scale-110 transition-all ">
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36" viewBox="0 0 48 48">
             <path fill="#fff"
@@ -95,6 +106,15 @@
             <path fill="#fff" fill-rule="evenodd"
               d="M19.3,16c-0.4-0.8-0.7-0.8-1.1-0.8c-0.3,0-0.6,0-0.9,0	s-0.8,0.1-1.3,0.6c-0.4,0.5-1.7,1.6-1.7,4s1.7,4.6,1.9,4.9s3.3,5.3,8.1,7.2c4,1.6,4.8,1.3,5.7,1.2c0.9-0.1,2.8-1.1,3.2-2.3	c0.4-1.1,0.4-2.1,0.3-2.3c-0.1-0.2-0.4-0.3-0.9-0.6s-2.8-1.4-3.2-1.5c-0.4-0.2-0.8-0.2-1.1,0.2c-0.3,0.5-1.2,1.5-1.5,1.9	c-0.3,0.3-0.6,0.4-1,0.1c-0.5-0.2-2-0.7-3.8-2.4c-1.4-1.3-2.4-2.8-2.6-3.3c-0.3-0.5,0-0.7,0.2-1c0.2-0.2,0.5-0.6,0.7-0.8	c0.2-0.3,0.3-0.5,0.5-0.8c0.2-0.3,0.1-0.6,0-0.8C20.6,19.3,19.7,17,19.3,16z"
               clip-rule="evenodd"></path>
+          </svg>
+        </NuxtLink>
+        <NuxtLink to="https://vk.com/id16051123"
+          class="mr-4 flex btn btn-circle bg-blue-700 hover:scale-110 transition-all ">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36" viewBox="0 0 48 48">
+            <path fill="#1976d2" d="M24,4C13,4,4,13,4,24s9,20,20,20s20-9,20-20S35,4,24,4z"></path>
+            <path fill="#fff"
+              d="M25.2,33.2c-9,0-14.1-6.1-14.3-16.4h4.5c0.1,7.5,3.5,10.7,6.1,11.3V16.8h4.2v6.5c2.6-0.3,5.3-3.2,6.2-6.5h4.2	c-0.7,4-3.7,7-5.8,8.2c2.1,1,5.5,3.6,6.7,8.2h-4.7c-1-3.1-3.5-5.5-6.8-5.9v5.9H25.2z">
+            </path>
           </svg>
         </NuxtLink>
       </div>

@@ -128,7 +128,7 @@
       </div>
 
       <div class="mt-12 text-center ">
-        <NuxtLink to="/"
+        <NuxtLink to="https://t.me/Drobishevskaya"
           class="gap-4 mt-8 inline-flex items-center rounded-full border border-blue-600 bg-blue-600 px-8 py-3 text-white hover:bg-transparent focus:outline-none focus:ring active:text-blue-500">
           <span class="text-xl font-bold pb-1"> Связаться </span>
 
