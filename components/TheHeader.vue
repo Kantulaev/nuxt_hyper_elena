@@ -1,6 +1,7 @@
 <template>
   <header >
     <div class="navbar fixed top-0 z-50 bg-base-200">
+      
       <div class="navbar-start">
         <!-- bar -->
         <div class="dropdown">
