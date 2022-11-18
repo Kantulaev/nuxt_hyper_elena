@@ -3,11 +3,11 @@
     <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
       <div class="mx-auto max-w-3xl text-center">
         <h2 class="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl">
-          Решаю сложные случаи
+          Решаю действительно сложные случаи
         </h2>
 
         <p class="mt-4 text-gray-500 dark:text-gray-400 sm:text-xl">
-          Владею в совершенстве международными методиками логопедии??
+          Владею в совершенстве доказанными международными практиками логопедии
         </p>
       </div>
 

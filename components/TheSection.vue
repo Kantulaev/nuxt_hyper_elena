@@ -1,128 +1,55 @@
 <template>
   <section class="bg-gray-900 text-white">
-    <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-screen-xl px-4 py-16 md:px-6 lg:px-8">
       <div class="mx-auto max-w-lg text-center">
-        <h2 class="text-3xl font-bold sm:text-4xl">Помогу в любом возрасте</h2>
+        <h2 class=" text-3xl font-bold md:text-4xl">Найду подход <br /> на каждый возраст</h2>
 
         <p class="mt-4 text-gray-300">
-          Продиагностирую и исправлю дефекты звукопроизношения детей школьного и дошкольного возраста
+
         </p>
       </div>
 
-      <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-        <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-          href="/services/digital-campaigns">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor">
-            <path d="M12 14l9-5-9-5-9 5 9 5z" />
-            <path
-              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-          </svg>
+      <div class="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <a
+          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10">
+          <img src="~/assets/img/kids.png" alt="kids">
 
           <h2 class="mt-4 text-xl font-bold text-white">
-            Диагностика состояния речи
+            Детям 4-7 лет
           </h2>
 
-          <p class="mt-1 text-sm text-gray-300">
-            123
+          <p class="mt-1 text-md text-gray-300">
+            Диагностика состояния речи.
+            Коррекция дефектов звукопроизношения.
+            Преодоление нарушений грамматического строя речи.
+            Расширение словарного запаса.
+            Подготовка к школе (в том числе для ребят с особыми потребностями).
           </p>
         </a>
 
-        <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-          href="/services/digital-campaigns">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor">
-            <path d="M12 14l9-5-9-5-9 5 9 5z" />
-            <path
-              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-          </svg>
+        <a
+          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10">
+          <img src="~/assets/img/school.png" alt="school">
 
-          <h2 class="mt-4 text-xl font-bold text-white">Коррекция дефектов звукопроизношения</h2>
+          <h2 class="mt-4 text-xl font-bold text-white">Школьникам 7 – 18 лет</h2>
 
-          <p class="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-            possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+          <p class="mt-1 text-md text-gray-300">
+            Диагностика состояния речи. Преодоление дисграфии и дислексии (нарушений чтения и письма). Устранение
+            пробелов в знаниях по русскому языку. Обучение правильному произношению звуков. Коррекция дефектов устной
+            речи.
           </p>
         </a>
 
-        <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-          href="/services/digital-campaigns">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor">
-            <path d="M12 14l9-5-9-5-9 5 9 5z" />
-            <path
-              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-          </svg>
+        <a
+          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10">
+          <img src="~/assets/img/adult.png" alt="adult">
 
-          <h2 class="mt-4 text-xl font-bold text-white">Преодоление нарушений грамматического строя речи</h2>
+          <h2 class="mt-4 text-xl font-bold text-white">Взрослым</h2>
 
-          <p class="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-            possimus adipisci distinctio alias voluptatum blanditiis laudantium.
-          </p>
-        </a>
-
-        <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-          href="/services/digital-campaigns">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor">
-            <path d="M12 14l9-5-9-5-9 5 9 5z" />
-            <path
-              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-          </svg>
-
-          <h2 class="mt-4 text-xl font-bold text-white">Расширение словарного запаса</h2>
-
-          <p class="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-            possimus adipisci distinctio alias voluptatum blanditiis laudantium.
-          </p>
-        </a>
-
-        <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-          href="/services/digital-campaigns">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor">
-            <path d="M12 14l9-5-9-5-9 5 9 5z" />
-            <path
-              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-          </svg>
-
-          <h2 class="mt-4 text-xl font-bold text-white">Подготовка к школе (в том числе для ребят с особыми
-            потребностями)</h2>
-
-          <p class="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-            possimus adipisci distinctio alias voluptatum blanditiis laudantium.
-          </p>
-        </a>
-
-        <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-          href="/services/digital-campaigns">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor">
-            <path d="M12 14l9-5-9-5-9 5 9 5z" />
-            <path
-              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-          </svg>
-
-          <h2 class="mt-4 text-xl font-bold text-white">Обучение правильному произношению звуков</h2>
-
-          <p class="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-            possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+          <p class="mt-1 text-md text-gray-300">
+            Коррекция дефектов звукопроизношения.
+            Обучение технике речи.
+            Восстановление речи после инсульта.
           </p>
         </a>
       </div>
@@ -152,6 +79,7 @@
           </svg>
         </NuxtLink>
       </div>
+
     </div>
   </section>
 

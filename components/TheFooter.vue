@@ -57,39 +57,23 @@
         <nav aria-label="Footer Nav" class="rounded-3xl border-4 border-gray-900 p-6 dark:border-gray-700">
           <ul class="flex flex-wrap justify-center gap-6 text-sm font-bold">
             <li>
-              <a class="text-gray-900 transition hover:text-gray-900/75 dark:text-white dark:hover:text-white/75"
-                href="/" target="_blank" rel="noreferrer">
-                Онлайн логопед
+              <a class="text-gray-900 transition hover:text-gray-900/75 dark:text-white dark:hover:text-white/75">
+                <NuxtLink to="#TheFAQ">Часто задаваемые вопросы</NuxtLink>
               </a>
             </li>
-
             <li>
-              <a class="text-gray-900 transition hover:text-gray-900/75 dark:text-white dark:hover:text-white/75"
-                href="/" target="_blank" rel="noreferrer">
-                Отзывы
+              <a class="text-gray-900 transition hover:text-gray-900/75 dark:text-white dark:hover:text-white/75">
+                <NuxtLink to="#TheTestimonials">Отзывы</NuxtLink>
               </a>
             </li>
 
-            <li>
-              <a class="text-gray-900 transition hover:text-gray-900/75 dark:text-white dark:hover:text-white/75"
-                href="/" target="_blank" rel="noreferrer">
-                Часто задаваемые вопросы
-              </a>
-            </li>
-
-            <li>
-              <a class="text-gray-900 transition hover:text-gray-900/75 dark:text-white dark:hover:text-white/75"
-                href="/" target="_blank" rel="noreferrer">
-
-              </a>
-            </li>
           </ul>
         </nav>
 
         <p class="mx-auto max-w-lg text-xs text-gray-500 dark:text-gray-400">
           Онлайн логопед Елена Дробышевская поможет в самых трудных случаях.
           <br />
-          Пишите в телеграмм или ватсапп по всем вопросам.
+          Пишите в телеграм или ватсап по всем вопросам.
 
           <span class="mt-4 block"> &copy; 2022 Елена Дробышевская </span>
         </p>

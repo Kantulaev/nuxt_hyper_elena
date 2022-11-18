@@ -3,7 +3,8 @@
     Часто задаваемые вопросы
   </h2>
 
-  <div class="divide-y my-12 md:max-w-3xl mx-auto divide-gray-200 rounded-xl border border-gray-200 bg-gray-300 dark:bg-gray-900 ">
+  <div
+    class="divide-y my-12 md:max-w-3xl mx-auto divide-gray-200 rounded-xl border border-gray-200 bg-gray-300 dark:bg-gray-900 ">
     <details class="group p-6" open>
       <summary class="flex cursor-pointer items-center justify-between">
         <h2 class="text-lg font-medium text-gray-900 dark:text-gray-200">

@@ -1,9 +1,9 @@
 <template>
   <TheHeader />
   <TheHero />
-  <TheStats />
   <TheTestimonials/>
   <TheVideoReview/>
+  <TheStats />
   <TheSection/>
   <TheFAQ />
   <TheFooter />
